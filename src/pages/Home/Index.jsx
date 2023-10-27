@@ -290,9 +290,9 @@ const Home = () => {
 
       <ProductDescriptionContainer>
         <TitleContainer>
-          <Tag>{productJson.company}</Tag>
+          <Tag translate="no">{productJson.company}</Tag>
 
-          <Title>{productJson.sneakerModel}</Title>
+          <Title translate="no">{productJson.sneakerModel}</Title>
         </TitleContainer>
 
         <DescriptionContainer>

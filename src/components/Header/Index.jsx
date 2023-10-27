@@ -135,7 +135,7 @@ export const Header = () => {
               <Empty>You cart is empty.</Empty>
             ) : (
               <ListProducts>
-                <div>
+                <div translate="no">
                   {cartItems.map((element, index) => {
                     return (
                       <Item>
